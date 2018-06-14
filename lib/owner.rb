@@ -11,7 +11,7 @@ class Owner
     @pets = {
       fishes: 0,
       cats: 0,
-      dogs:
+      dogs: 0
     }
   end
 
