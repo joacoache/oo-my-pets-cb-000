@@ -31,8 +31,9 @@ class Owner
     "I am a #{self.species}."
   end
 
-  def buy_fish
-    fish.new
+  def buy_fish(name)
+    a = fish.new(name)
+    @pets[fishes] += 1
   end
 
 end
