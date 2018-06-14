@@ -9,9 +9,9 @@ class Owner
     @species = species
     @@all << self
     @pets = {
-      fishes:,
-      cats:,
-      dogs:
+      fishes: 0,
+      cats: 0,
+      dogs: 0
       }
   end
 
