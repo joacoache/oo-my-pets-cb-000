@@ -52,4 +52,20 @@ class Owner
     end
   end
 
+
+  def play_with_cats
+    @pets[:cats].each do |i|
+      i.mood = "happy"
+    end
+  end
+
+
+  def feed.fish
+    @pets[:fishes].each do |i|
+      i.mood = "happy"
+    end
+  end
+
+
+  
 end
