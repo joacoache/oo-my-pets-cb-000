@@ -67,8 +67,8 @@ class Owner
   end
 
   def sell_pets
-    @pets.each do |i|
-      i.each do |y|
+    @pets.each do |a, b|
+      b.each do |y|
         y.mood = "nervous"
       end
     end
